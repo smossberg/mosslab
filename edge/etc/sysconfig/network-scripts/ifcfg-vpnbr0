@@ -1,0 +1,7 @@
+# VPN BRIDGE, used by eth3 and the tap0 created by OpenVPN at start time)
+TYPE=Bridge
+DEVICE=vpnbr0
+IPADDR=192.168.17.254
+PREFIX=24
+NAME=vpnbr0
+ONBOOT=Yes

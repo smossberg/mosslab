@@ -1,0 +1,12 @@
+#VPN
+# Slave to bridge vpnbr0 (the bridge where we connect the OpenVPN TAP interface, which is created at start time using the up.sh scripts in /etc/openvpn/up.sh)
+TYPE=Ethernet
+BOOTPROTO=static
+#IPADDR=192.168.17.1
+PREFIX=24
+IPV4_FAILURE_FATAL=no
+NAME=eth3
+#UUID=9ccfebdc-d026-40c0-bb0f-9a71c70bb7d9
+DEVICE=eth3
+ONBOOT=yes
+BRIDGE=vpnbr0

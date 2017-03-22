@@ -1,0 +1,6 @@
+#TAP 0 used by OpenVPn
+TYPE=Tap
+DEVICE=tap0
+NAME=tap0
+BRIDGE=vpnbr0
+ONBOOT=yes
